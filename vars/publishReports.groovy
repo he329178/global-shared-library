@@ -1,4 +1,4 @@
 def call () {
-  sh 'ls **/target/surefire-reports/'
+  //sh 'ls **/target/surefire-reports/'
   jacoco()
 }
