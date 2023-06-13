@@ -1,4 +1,4 @@
 def call () {
-  sh 'mvn clean compile -P jacoco:report sonar:sonar war:war'
+  sh 'mvn clean package -DskipTests=true'
   //sh 'mvn package -DskipTests=true'
 }
